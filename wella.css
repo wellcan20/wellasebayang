@@ -1,0 +1,61 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #ffcecd;
+}
+.jumbotron .sosmed a i {
+  font-size: 2.5em;
+  margin: 4px;
+  color: #ff0400;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #bb4430;
+  padding: 3rem;
+}
+table {
+  margin: auto;
+  font-size: 20px;
+}
+.resume1 {
+  text-align: justify;
+  padding-top: 2rem;
+  padding: 0;
+}
+footer {
+  background-color: #ff0400;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.entry {
+  flex: 0 1 45%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.entry.left {
+  order: 1;
+}
+
+.entry.right {
+  order: 2;
+}
